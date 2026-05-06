@@ -1,0 +1,48 @@
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+env/
+
+# Файлы базы данных
+db.sqlite3
+*.sqlite3
+
+# Загружаемые пользователем медиафайлы
+media/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+
+# Скрытые файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Игнорирование настроек IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Собранные статические файлы (если используются)
+staticfiles/
+static_root/
+
+# Файлы отчётов тестов и покрытия
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Файлы, создаваемые при упаковке
+*.egg-info/
+dist/
+build/
